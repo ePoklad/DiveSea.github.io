@@ -1,0 +1,44 @@
+.container {
+    max-width: 1250px;
+    padding-right: 70px;
+    padding-left: 85px;
+    margin: 0 auto;
+  }
+
+.header {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: space-between;
+
+}
+
+.header__link {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #606060;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 35%;
+   
+}
+
+.header__search {
+    width: 349px;
+}
+
+
+.button {
+    padding: 21px 28px;
+    font-size: 16px;
+    border: none;
+    background-color: #141416;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 16px;
+    text-transform: uppercase;
+}
