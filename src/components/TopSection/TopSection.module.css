@@ -5,6 +5,7 @@
 .top__wrapper {
 padding-top: 60px;
 padding-bottom: 90px;
+margin: 0 auto;
 }
 
 .top__title {
@@ -20,18 +21,6 @@ padding-bottom: 90px;
     margin: 0 1rem;
 }
 
-/* .arrow__wrapper {
-    display: flex;
-    width: fit-content;
-    align-items: center;
-    justify-content: center;
-    border-radius: 17px;
-    background-color: #fff;
-    border: none;
-    -webkit-box-shadow: 0px 26px 34px 0px rgba(15, 15, 15, 0.12);
-    -moz-box-shadow: 0px 26px 34px 0px rgba(15, 15, 15, 0.12);
-    box-shadow: 0px 26px 34px 0px rgba(15, 15, 15, 0.12);
-} */
 
 .arrow {
     width: 25px;

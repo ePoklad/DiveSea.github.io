@@ -42,9 +42,8 @@ export default function TopSection() {
                             1300: {
                                 slidesPerView: 4,
                             },
-                            1440: {
+                            1450: {
                                 slidesPerView: 5,
-                                loop: true,
                             },
                         }}
                         className="mySwiper" >
@@ -60,13 +59,17 @@ export default function TopSection() {
                         ))
                         }
                         <div className="arrow__wrapper">
-                            <button className="swiper-button-prev arrow" onClick={() => swiper.slidePrev()}>
+                            {/* <button className="swiper-button-prev arrow" onClick={() => swiper.slidePrev()}>
+                            </button> */}
+                            <button className="swiper-button-prev arrow">
                             </button>
                             <svg width="4" height="27" viewBox="0 0 4 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <rect x="0.921875" y="0.558472" width="2.15584" height="25.8701" rx="1.07792" fill="#E6E8EC" />
                             </svg>
-                            <button className="swiper-button-next arrow" onClick={() => swiper.slideNext()}>
+                            <button className="swiper-button-next arrow">
                             </button>
+                            {/* <button className="swiper-button-next arrow" onClick={() => swiper.slideNext()}>
+                            </button> */}
                         </div>
                     </Swiper>
                 </div>

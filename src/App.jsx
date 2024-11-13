@@ -19,7 +19,7 @@ export default function App() {
       <Header />
 
       <main>
-        <Routes>
+        <Routes >
           < Route path="/" element={<MainPage />} />
           < Route path="/discover" element={<Discover />} />
           < Route path="/creators" element={<Creators />} />
